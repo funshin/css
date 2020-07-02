@@ -21,7 +21,7 @@ body {
 }
 
 .article-body {
-  position: absolute;
+  position: relative;
   z-index: 20;
   background: white;
   -moz-border-radius-bottomright: 32px;
@@ -30,7 +30,7 @@ body {
 }
 .article-body:after {
   content: '';
-  position: relative;
+  position: absolute;
   bottom: 0;
   top: 16px;
   left: -16px;
