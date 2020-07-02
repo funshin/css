@@ -3,7 +3,7 @@ body {
 }
 
 .article-wrap {
-  position: absolute;
+  position: relative;
   z-index: 10;
   padding-left: 16px;
   width: 250px;
@@ -30,7 +30,7 @@ body {
 }
 .article-body:after {
   content: '';
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 16px;
   left: -16px;
