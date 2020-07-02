@@ -3,7 +3,7 @@ body {
 }
 
 .article-wrap {
-  position: relative;
+  position: absolute;
   z-index: 10;
   padding-left: 16px;
   width: 250px;
@@ -21,7 +21,7 @@ body {
 }
 
 .article-body {
-  position: relative;
+  position: absolute;
   z-index: 20;
   background: white;
   -moz-border-radius-bottomright: 32px;
